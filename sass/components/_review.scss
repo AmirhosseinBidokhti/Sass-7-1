@@ -1,0 +1,40 @@
+.partners {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.partner {
+  //background-color: red;
+  flex: 15%;
+
+  &__logo {
+    width: 100%;
+  }
+}
+
+.review {
+  padding-bottom: 10rem;
+  &er {
+    &-image img {
+      width: 10rem;
+      height: 10rem;
+      border-radius: 50%;
+    }
+
+    &-text {
+      font-size: $default-font-size !important;
+    }
+
+    &-name {
+      font-weight: 700;
+      font-size: $default-font-size !important;
+      span {
+        color: $color-grey-light-1;
+        font-weight: 400;
+      }
+    }
+  }
+}

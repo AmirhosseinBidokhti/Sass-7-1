@@ -1,0 +1,19 @@
+{
+  "name": "ui-design-project",
+  "version": "1.0.0",
+  "description": "ui design for the second project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass sass/main.scss css/style.comp.css",
+    "watch:sass": "nodemon -e scss -x \"npm run compile:sass\""
+  },
+  "author": "amirhossein bidokhti, yasaman badamaki(not really tho she did nothing lol)",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^6.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

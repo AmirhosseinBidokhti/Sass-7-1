@@ -1,0 +1,26 @@
+.header {
+  height: 73vh;
+  background-image: linear-gradient(
+      to right,
+      rgba(221, 217, 217, 0.932),
+      rgba(0, 0, 0, 0.156)
+    ),
+    url("../img/jason-abdilla-t3PdqGyoyt4-unsplash.jpg");
+
+  width: 100%;
+  background-size: cover;
+  //background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  position: relative;
+
+  &__text-box {
+    padding: 4rem;
+    //background-color: red;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 33%;
+    transform: translate(-50%, -50%);
+  }
+}

@@ -1,0 +1,21 @@
+.btn {
+  &,
+  &:link,
+  &:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    //background-color: red;
+    color: $color-black;
+  }
+}
+
+.btn--cta {
+  padding: 1.2rem 3rem;
+  color: $color-secondary !important;
+  background-color: $color-grey-dark-2;
+  font-size: 1.4rem;
+  margin-top: 1rem;
+  border-radius: 4px;
+}

@@ -1,0 +1,48 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: $color-grey-dark-1;
+}
+
+.heading-sub {
+  color: $color-black;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: -1.2rem;
+}
+
+.heading-primary {
+  color: $color-black;
+  font-size: 4rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.heading-secondary {
+  font-size: 3rem;
+  display: inline-block;
+  position: relative;
+  font-weight: 700;
+  //background-color: red;
+  //background-color: red;
+}
+
+.heading-secondary::before {
+  content: "";
+  position: absolute;
+  background-image: url("../../img/fattoria-f-logo.jpg");
+  display: block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100px;
+  text-align: center;
+  top: -30%;
+  left: 68%;
+  transform: translate(-50%, -50%);
+  //bottom: 60%;
+  height: 30px;
+  margin: 0 auto;
+}
